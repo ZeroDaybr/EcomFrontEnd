@@ -1,0 +1,839 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="\asset\css\style.css">
+  </head>
+  <body>
+    
+    
+<div class="super_container">
+	
+	<section>
+            <div class="container ">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 ">
+                    <div class="container-fluid">
+
+                       <div>
+                        <a class="navbar-brand" href="#"><img src="\asset\image\logo3.png" alt=""></a>
+                       </div>
+
+                      <div class="d-flex flex-row-reverse bd-highlight">
+
+                        <div class="p-1 ms-3 col-3 cart-btn">
+                          <button class="btn" type="submit"><i class="fa-solid fa-cart-shopping"></i> Cart (0) </button>                  
+                      </div>
+
+                        <div class="p-1">
+                            <button class="btn btn-outline-white">|</button>
+                        </div>
+
+                        <div class="p-1 d-flex justify-content-center align-items-center">
+
+                            <div class="">
+                              <button class="btn btn-outline-white" type="submit"><img src="\asset\image\vector.png" alt=""> </button>
+                            </div>
+
+                            <div class="">
+                              <b>Account</b>
+                            </div>
+
+                        </div>
+
+                        
+                        <div class="p-1 col-10 search-color">
+                            <form class="d-flex justify-content-end align-items-center"> 
+                              <input class="form-control me-2 ms-2 search-box" type="search" placeholder="Search" aria-label="Search" >
+                              <span ><i class="fa-solid fa-magnifying-glass mx-3"></i></span> 
+                            </form>
+                                          
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </nav>
+
+            </div>
+
+
+    </section>
+
+  <!-- header 2nd part -->
+    <section>
+
+      <hr>
+      <div class="container">
+        <div class="row ">
+
+          <div class="col-6">
+            <div class="col-6 toggle_btn d-flex align-items-center justify-content-around">
+
+              <div class="d-flex justify-content-center">
+                <i class="fa-solid fa-bars align-self-center"></i>
+                <b class="ms-2">Categories</b>
+              </div>
+
+              <div class="text-end">
+                <button id="btnGroupDrop1" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 d-flex justify-content-end align-items-center">
+
+            <div class="p-1 col-2 mx-3">
+              <button class="offer_btn" type="submit">Offers</button>                  
+            </div>
+            <div class="p-1 col-3 mx-3">
+              <button class="Seller_btn " type="submit">Seller Picks</button>                  
+            </div>
+            <div class="p-1 col-3">
+              <button class="Campaign_btn" type="submit">Campaign</button>                  
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <hr>
+
+    </section>
+
+    <section>
+     
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="/asset/image/banner.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      
+
+    </section>
+    
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Product Filters -->
+        <div class="col-md-4 col-lg-3">
+          
+          
+          <!-- Category Filter -->
+          <div class="mb-3">
+            <h5>CATEGORY</h5>
+            <hr>
+            <div class="form-check mb-2">
+              <input class="form-check-input rounded-circle" type="checkbox" value="small" id="sizeSmall">
+              <label class="form-check-label" for="sizeSmall">Sun Care</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input rounded-circle" type="checkbox" value="medium" id="sizeMedium">
+              <label class="form-check-label" for="sizeMedium">Night Care</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input rounded-circle" type="checkbox" value="large" id="sizeLarge">
+              <label class="form-check-label" for="sizeLarge">Moisturizers</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input rounded-circle" type="checkbox" value="large" id="sizeLarge">
+              <label class="form-check-label" for="sizeLarge">Eye Care</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input rounded-circle" type="checkbox" value="large" id="sizeLarge">
+              <label class="form-check-label" for="sizeLarge">Masks</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input rounded-circle" type="checkbox" value="large" id="sizeLarge">
+              <label class="form-check-label" for="sizeLarge">Personal Care</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input rounded-circle" type="checkbox" value="large" id="sizeLarge">
+              <label class="form-check-label" for="sizeLarge">Hair Care</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input rounded-circle" type="checkbox" value="large" id="sizeLarge">
+              <label class="form-check-label" for="sizeLarge">On Sale</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input rounded-circle" type="checkbox" value="large" id="sizeLarge">
+              <label class="form-check-label" for="sizeLarge">Seller Picks</label>
+            </div>
+          </div>
+          
+          <!-- Brand Filter -->
+          <div class="mb-3">
+            <h5>Brand</h5>
+            <hr> mb-2
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="red" id="colorRed">
+              <label class="form-check-label" for="colorRed">The Body Shop</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="blue" id="colorBlue">
+              <label class="form-check-label" for="colorBlue">Nivea</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="green" id="colorGreen">
+              <label class="form-check-label" for="colorGreen">Skinfood</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="green" id="colorGreen">
+              <label class="form-check-label" for="colorGreen">Neutrogena</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="green" id="colorGreen">
+              <label class="form-check-label" for="colorGreen">Cerave</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="green" id="colorGreen">
+              <label class="form-check-label" for="colorGreen">Olay</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="green" id="colorGreen">
+              <label class="form-check-label" for="colorGreen">Dove</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="green" id="colorGreen">
+              <label class="form-check-label" for="colorGreen">Neogen</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="green" id="colorGreen">
+              <label class="form-check-label" for="colorGreen">Loreal</label>
+            </div>
+          </div>
+          
+          <!-- Colors Filter -->
+          <div class="mb-5">
+            <h5>COLORS</h5>
+            <hr>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="electronics" id="categoryElectronics">
+              <label class="form-check-label" for="categoryElectronics">Red</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="clothing" id="categoryClothing">
+              <label class="form-check-label" for="categoryClothing">Pink</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="home" id="categoryHome">
+              <label class="form-check-label" for="categoryHome">White</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="home" id="categoryHome">
+              <label class="form-check-label" for="categoryHome">Black</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="home" id="categoryHome">
+              <label class="form-check-label" for="categoryHome">Aqua</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="home" id="categoryHome">
+              <label class="form-check-label" for="categoryHome">Green</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="home" id="categoryHome">
+              <label class="form-check-label" for="categoryHome">Blue</label>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="home" id="categoryHome">
+              <label class="form-check-label" for="categoryHome">Neogen</label>
+            </div> 
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="home" id="categoryHome">
+              <label class="form-check-label" for="categoryHome">Loreal</label>
+            </div> 
+          </div>
+
+
+
+          <div class="mb-5">
+            <h5>SIZE</h5>
+            <hr>
+             <div class="mt-3 d-flex">
+              <button type="button" class="btn-sm btn btn-outline border active ">150ml</button>
+              <button type="button" class="btn-sm btn btn-outline border mx-2">200ml</button>
+              <button type="button" class="btn-sm btn btn-outline border">250ml</button>
+          </div>
+          <div class="d-flex mt-3">
+            <button type="button" class="btn-sm btn btn-outline border me-2">300ml</button>
+              <button type="button" class="btn-sm btn btn-outline border">500ml</button>
+          </div>
+
+          <div class="mt-3">
+            <h4>Price</h4>
+            <hr>
+            <input type="range" class="form-range" id="priceRange" min="1" max="1000" step="1" value="500">
+            <p class="mt-2">Price: <span id="currentPrice">$500</span></p>
+          </div>
+
+
+          <div class="mt-3">
+            <button type="button" class="btn btn-danger border container">All RESET</button>
+          </div>
+          </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+  
+        <!-- Product List -->
+        <div class="col-md-8 col-lg-9">
+
+          <div class="mb-5 d-flex justify-content-end">
+            <!-- Example split danger button -->
+            <div class="btn-group">
+              <!-- Main button with action -->
+              <button type="button" class="btn btn-danger">Action</button>
+        
+              <!-- Dropdown toggle button -->
+              <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+        
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Your product list goes here -->
+          <!-- Example product cards -->
+          <div class="row">
+            <div class="col-sm-8 col-md-4 col-lg-4">
+              <div class="card mb-4">
+                
+                    <!-- Product Image -->
+                    <img src="/asset/image/product1.png" class="card-img-top" alt="Product Image">
+              
+                    <!-- Card Body -->
+                    <div class="card-body">
+                      <!-- Product Rating -->
+                      <span class="fs-4 text-nowrap">Lorem ipsum dolor.</span>
+                      <div class="d-flex align-items-center">
+                        <span class="me-2">Rating:</span>
+                        <div class="rating">
+                          <!-- You can use your own rating icons or font-awesome icons here -->
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          
+                        </div>
+                      </div>
+              
+                      <!-- Product Price -->
+                      
+              
+                      <!-- Product Discount -->
+                      <div class="d-flex justify-content-around align-items-center">
+                        <h5 class="card-title mt-2"> <b>৳ 1250.00</b></h5>
+                        <h5 class="card-title mt-2 text-decoration-line-through">$40</h5>
+                        <span class="ms-2">(-20%)</span>
+                      </div>
+              
+                      <!-- Increment Decrement Buttons -->
+                      <div class="d-flex align-items-center mt-3 justify-content-around">
+                        <div class="input-group incdecbtn">
+                          <button class="btn btn-outline-secondary" type="button" id="minusBtn">-</button>
+                          <input type="number" class="form-control text-center" value="1" id="quantityInput">
+                          <button class="btn btn-outline-secondary" type="button" id="plusBtn">+</button>
+                        </div>                     
+                          <button class="btn-sm btn btn-primary">Add to Cart</button>           
+                      </div>           
+                    </div>
+                  </div>
+            </div>
+            
+            <div class="col-sm-8 col-md-4 col-lg-4">
+              <div class="card mb-4">
+                
+                    <!-- Product Image -->
+                    <img src="/asset/image/product1.png" class="card-img-top" alt="Product Image">
+              
+                    <!-- Card Body -->
+                    <div class="card-body">
+                      <!-- Product Rating -->
+                      <span class="fs-4 text-nowrap">Lorem ipsum dolor.</span>
+                      <div class="d-flex align-items-center">
+                        <span class="me-2">Rating:</span>
+                        <div class="rating">
+                          <!-- You can use your own rating icons or font-awesome icons here -->
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          <i class="fa-solid fa-star text-warning"></i>
+                          
+                        </div>
+                      </div>
+              
+                      <!-- Product Price -->
+                      
+              
+                      <!-- Product Discount -->
+                      <div class="d-flex justify-content-around align-items-center">
+                        <h5 class="card-title mt-2"> <b>৳ 1250.00</b></h5>
+                        <h5 class="card-title mt-2 text-decoration-line-through">$40</h5>
+                        <span class="ms-2">(-20%)</span>
+                      </div>
+              
+                      <!-- Increment Decrement Buttons -->
+                      <div class="d-flex align-items-center mt-3 justify-content-around">
+                        <div class="input-group incdecbtn">
+                          <button class="btn btn-outline-secondary" type="button" id="minusBtn">-</button>
+                          <input type="number" class="form-control text-center" value="1" id="quantityInput">
+                          <button class="btn btn-outline-secondary" type="button" id="plusBtn">+</button>
+                        </div>                     
+                          <button class="btn-sm btn btn-primary">Add to Cart</button>           
+                      </div>           
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-sm-8 col-md-4 col-lg-4">
+                    <div class="card mb-4">
+                      
+                          <!-- Product Image -->
+                          <img src="/asset/image/product1.png" class="card-img-top" alt="Product Image">
+                    
+                          <!-- Card Body -->
+                          <div class="card-body">
+                            <!-- Product Rating -->
+                            <span class="fs-4 text-nowrap">Lorem ipsum dolor.</span>
+                            <div class="d-flex align-items-center">
+                              <span class="me-2">Rating:</span>
+                              <div class="rating">
+                                <!-- You can use your own rating icons or font-awesome icons here -->
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                
+                              </div>
+                            </div>
+                    
+                            <!-- Product Price -->
+                            
+                    
+                            <!-- Product Discount -->
+                            <div class="d-flex justify-content-around align-items-center">
+                              <h5 class="card-title mt-2"> <b>৳ 1250.00</b></h5>
+                              <h5 class="card-title mt-2 text-decoration-line-through">$40</h5>
+                              <span class="ms-2">(-20%)</span>
+                            </div>
+                    
+                            <!-- Increment Decrement Buttons -->
+                            <div class="d-flex align-items-center mt-3 justify-content-around">
+                              <div class="input-group incdecbtn">
+                                <button class="btn btn-outline-secondary" type="button" id="minusBtn">-</button>
+                                <input type="number" class="form-control text-center" value="1" id="quantityInput">
+                                <button class="btn btn-outline-secondary" type="button" id="plusBtn">+</button>
+                              </div>                     
+                                <button class="btn-sm btn btn-primary">Add to Cart</button>           
+                            </div>           
+                          </div>
+                        </div>
+                        </div>
+                        
+                        <div class="col-sm-8 col-md-4 col-lg-4">
+                          <div class="card mb-4">
+                            
+                                <!-- Product Image -->
+                                <img src="/asset/image/product1.png" class="card-img-top" alt="Product Image">
+                          
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                  <!-- Product Rating -->
+                                  <span class="fs-4 text-nowrap">Lorem ipsum dolor.</span>
+                                  <div class="d-flex align-items-center">
+                                    <span class="me-2">Rating:</span>
+                                    <div class="rating">
+                                      <!-- You can use your own rating icons or font-awesome icons here -->
+                                      <i class="fa-solid fa-star text-warning"></i>
+                                      <i class="fa-solid fa-star text-warning"></i>
+                                      <i class="fa-solid fa-star text-warning"></i>
+                                      <i class="fa-solid fa-star text-warning"></i>
+                                      <i class="fa-solid fa-star text-warning"></i>
+                                      
+                                    </div>
+                                  </div>
+                          
+                                  <!-- Product Price -->
+                                  
+                          
+                                  <!-- Product Discount -->
+                                  <div class="d-flex justify-content-around align-items-center">
+                                    <h5 class="card-title mt-2"> <b>৳ 1250.00</b></h5>
+                                    <h5 class="card-title mt-2 text-decoration-line-through">$40</h5>
+                                    <span class="ms-2">(-20%)</span>
+                                  </div>
+                          
+                                  <!-- Increment Decrement Buttons -->
+                                  <div class="d-flex align-items-center mt-3 justify-content-around">
+                                    <div class="input-group incdecbtn">
+                                      <button class="btn btn-outline-secondary" type="button" id="minusBtn">-</button>
+                                      <input type="number" class="form-control text-center" value="1" id="quantityInput">
+                                      <button class="btn btn-outline-secondary" type="button" id="plusBtn">+</button>
+                                    </div>                     
+                                      <button class="btn-sm btn btn-primary">Add to Cart</button>           
+                                  </div>           
+                                </div>
+                              </div>
+                              </div>
+
+                              <div class="col-sm-8 col-md-4 col-lg-4">
+                                <div class="card mb-4">
+                                  
+                                      <!-- Product Image -->
+                                      <img src="/asset/image/product1.png" class="card-img-top" alt="Product Image">
+                                
+                                      <!-- Card Body -->
+                                      <div class="card-body">
+                                        <!-- Product Rating -->
+                                        <span class="fs-4 text-nowrap">Lorem ipsum dolor.</span>
+                                        <div class="d-flex align-items-center">
+                                          <span class="me-2">Rating:</span>
+                                          <div class="rating">
+                                            <!-- You can use your own rating icons or font-awesome icons here -->
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            
+                                          </div>
+                                        </div>
+                                
+                                        <!-- Product Price -->
+                                        
+                                
+                                        <!-- Product Discount -->
+                                        <div class="d-flex justify-content-around align-items-center">
+                                          <h5 class="card-title mt-2"> <b>৳ 1250.00</b></h5>
+                                          <h5 class="card-title mt-2 text-decoration-line-through">$40</h5>
+                                          <span class="ms-2">(-20%)</span>
+                                        </div>
+                                
+                                        <!-- Increment Decrement Buttons -->
+                                        <div class="d-flex align-items-center mt-3 justify-content-around">
+                                          <div class="input-group incdecbtn">
+                                            <button class="btn btn-outline-secondary" type="button" id="minusBtn">-</button>
+                                            <input type="number" class="form-control text-center" value="1" id="quantityInput">
+                                            <button class="btn btn-outline-secondary" type="button" id="plusBtn">+</button>
+                                          </div>                     
+                                            <button class="btn-sm btn btn-primary">Add to Cart</button>           
+                                        </div>           
+                                      </div>
+                                    </div>
+                                    </div>
+
+                                    <div class="col-sm-8 col-md-4 col-lg-4">
+                                      <div class="card mb-4">
+                                        
+                                            <!-- Product Image -->
+                                            <img src="/asset/image/product1.png" class="card-img-top" alt="Product Image">
+                                      
+                                            <!-- Card Body -->
+                                            <div class="card-body">
+                                              <!-- Product Rating -->
+                                              <span class="fs-4 text-nowrap">Lorem ipsum dolor.</span>
+                                              <div class="d-flex align-items-center">
+                                                <span class="me-2">Rating:</span>
+                                                <div class="rating">
+                                                  <!-- You can use your own rating icons or font-awesome icons here -->
+                                                  <i class="fa-solid fa-star text-warning"></i>
+                                                  <i class="fa-solid fa-star text-warning"></i>
+                                                  <i class="fa-solid fa-star text-warning"></i>
+                                                  <i class="fa-solid fa-star text-warning"></i>
+                                                  <i class="fa-solid fa-star text-warning"></i>
+                                                  
+                                                </div>
+                                              </div>
+                                      
+                                              <!-- Product Price -->
+                                              
+                                      
+                                              <!-- Product Discount -->
+                                              <div class="d-flex justify-content-around align-items-center">
+                                                <h5 class="card-title mt-2"> <b>৳ 1250.00</b></h5>
+                                                <h5 class="card-title mt-2 text-decoration-line-through">$40</h5>
+                                                <span class="ms-2">(-20%)</span>
+                                              </div>
+                                      
+                                              <!-- Increment Decrement Buttons -->
+                                              <div class="d-flex align-items-center mt-3 justify-content-around">
+                                                <div class="input-group incdecbtn">
+                                                  <button class="btn btn-outline-secondary" type="button" id="minusBtn">-</button>
+                                                  <input type="number" class="form-control text-center" value="1" id="quantityInput">
+                                                  <button class="btn btn-outline-secondary" type="button" id="plusBtn">+</button>
+                                                </div>                     
+                                                  <button class="btn-sm btn btn-primary">Add to Cart</button>           
+                                              </div>           
+                                            </div>
+                                          </div>
+                                          </div>
+
+                                          <div class="col-sm-8 col-md-4 col-lg-4">
+                                            <div class="card mb-4">
+                                              
+                                                  <!-- Product Image -->
+                                                  <img src="/asset/image/product1.png" class="card-img-top" alt="Product Image">
+                                            
+                                                  <!-- Card Body -->
+                                                  <div class="card-body">
+                                                    <!-- Product Rating -->
+                                                    <span class="fs-4 text-nowrap">Lorem ipsum dolor.</span>
+                                                    <div class="d-flex align-items-center">
+                                                      <span class="me-2">Rating:</span>
+                                                      <div class="rating">
+                                                        <!-- You can use your own rating icons or font-awesome icons here -->
+                                                        <i class="fa-solid fa-star text-warning"></i>
+                                                        <i class="fa-solid fa-star text-warning"></i>
+                                                        <i class="fa-solid fa-star text-warning"></i>
+                                                        <i class="fa-solid fa-star text-warning"></i>
+                                                        <i class="fa-solid fa-star text-warning"></i>
+                                                        
+                                                      </div>
+                                                    </div>
+                                            
+                                                    <!-- Product Price -->
+                                                    
+                                            
+                                                    <!-- Product Discount -->
+                                                    <div class="d-flex justify-content-around align-items-center">
+                                                      <h5 class="card-title mt-2"> <b>৳ 1250.00</b></h5>
+                                                      <h5 class="card-title mt-2 text-decoration-line-through">$40</h5>
+                                                      <span class="ms-2">(-20%)</span>
+                                                    </div>
+                                            
+                                                    <!-- Increment Decrement Buttons -->
+                                                    <div class="d-flex align-items-center mt-3 justify-content-around">
+                                                      <div class="input-group incdecbtn">
+                                                        <button class="btn btn-outline-secondary" type="button" id="minusBtn">-</button>
+                                                        <input type="number" class="form-control text-center" value="1" id="quantityInput">
+                                                        <button class="btn btn-outline-secondary" type="button" id="plusBtn">+</button>
+                                                      </div>                     
+                                                        <button class="btn-sm btn btn-primary">Add to Cart</button>           
+                                                    </div>           
+                                                  </div>
+                                                </div>
+                                                </div>
+
+                                                <div class="col-sm-8 col-md-4 col-lg-4">
+                                                  <div class="card mb-4">
+                                                    
+                                                        <!-- Product Image -->
+                                                        <img src="/asset/image/product1.png" class="card-img-top" alt="Product Image">
+                                                  
+                                                        <!-- Card Body -->
+                                                        <div class="card-body">
+                                                          <!-- Product Rating -->
+                                                          <span class="fs-4 text-nowrap">Lorem ipsum dolor.</span>
+                                                          <div class="d-flex align-items-center">
+                                                            <span class="me-2">Rating:</span>
+                                                            <div class="rating">
+                                                              <!-- You can use your own rating icons or font-awesome icons here -->
+                                                              <i class="fa-solid fa-star text-warning"></i>
+                                                              <i class="fa-solid fa-star text-warning"></i>
+                                                              <i class="fa-solid fa-star text-warning"></i>
+                                                              <i class="fa-solid fa-star text-warning"></i>
+                                                              <i class="fa-solid fa-star text-warning"></i>
+                                                              
+                                                            </div>
+                                                          </div>
+                                                  
+                                                          <!-- Product Price -->
+                                                          
+                                                  
+                                                          <!-- Product Discount -->
+                                                          <div class="d-flex justify-content-around align-items-center">
+                                                            <h5 class="card-title mt-2"> <b>৳ 1250.00</b></h5>
+                                                            <h5 class="card-title mt-2 text-decoration-line-through">$40</h5>
+                                                            <span class="ms-2">(-20%)</span>
+                                                          </div>
+                                                  
+                                                          <!-- Increment Decrement Buttons -->
+                                                          <div class="d-flex align-items-center mt-3 justify-content-around">
+                                                            <div class="input-group incdecbtn">
+                                                              <button class="btn btn-outline-secondary" type="button" id="minusBtn">-</button>
+                                                              <input type="number" class="form-control text-center" value="1" id="quantityInput">
+                                                              <button class="btn btn-outline-secondary" type="button" id="plusBtn">+</button>
+                                                            </div>                     
+                                                              <button class="btn-sm btn btn-primary">Add to Cart</button>           
+                                                          </div>           
+                                                        </div>
+                                                      </div>
+                                                      </div>
+
+                                                      <div class="col-sm-8 col-md-4 col-lg-4">
+                                                        <div class="card mb-4">
+                                                          
+                                                              <!-- Product Image -->
+                                                              <img src="/asset/image/product1.png" class="card-img-top" alt="Product Image">
+                                                        
+                                                              <!-- Card Body -->
+                                                              <div class="card-body">
+                                                                <!-- Product Rating -->
+                                                                <span class="fs-4 text-nowrap">Lorem ipsum dolor.</span>
+                                                                <div class="d-flex align-items-center">
+                                                                  <span class="me-2">Rating:</span>
+                                                                  <div class="rating">
+                                                                    <!-- You can use your own rating icons or font-awesome icons here -->
+                                                                    <i class="fa-solid fa-star text-warning"></i>
+                                                                    <i class="fa-solid fa-star text-warning"></i>
+                                                                    <i class="fa-solid fa-star text-warning"></i>
+                                                                    <i class="fa-solid fa-star text-warning"></i>
+                                                                    <i class="fa-solid fa-star text-warning"></i>
+                                                                    
+                                                                  </div>
+                                                                </div>
+                                                        
+                                                                <!-- Product Price -->
+                                                                
+                                                        
+                                                                <!-- Product Discount -->
+                                                                <div class="d-flex justify-content-around align-items-center">
+                                                                  <h5 class="card-title mt-2"> <b>৳ 1250.00</b></h5>
+                                                                  <h5 class="card-title mt-2 text-decoration-line-through">$40</h5>
+                                                                  <span class="ms-2">(-20%)</span>
+                                                                </div>
+                                                        
+                                                                <!-- Increment Decrement Buttons -->
+                                                                <div class="d-flex align-items-center mt-3 justify-content-around">
+                                                                  <div class="input-group incdecbtn">
+                                                                    <button class="btn btn-outline-secondary" type="button" id="minusBtn">-</button>
+                                                                    <input type="number" class="form-control text-center" value="1" id="quantityInput">
+                                                                    <button class="btn btn-outline-secondary" type="button" id="plusBtn">+</button>
+                                                                  </div>                     
+                                                                    <button class="btn-sm btn btn-primary">Add to Cart</button>           
+                                                                </div>           
+                                                              </div>
+                                                            </div>
+                                                            </div>
+
+            <!-- Add more product cards here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="container-fluid footer_background">
+      <footer class="pt-5">
+          <div class="row d-flex justify-content-around">
+  
+              <div class="col-6 col-md-3 mb-3">
+                  <img src="/asset/image/logo3.png" alt="logo">
+                  <a href="#" class="nav-link p-0 text-white ms-1 mt-2"><i class="fas fa-mobile-alt"></i><span class="ms-2">13234-774464</span></a>
+                  <a href="#" class="nav-link p-0 text-white ms-1 mt-2"><i class="far fa-envelope"></i><span class="ms-2">anghorag@support.gmail.com</span></a>
+                  <h5 class=" py-2 my-3 border-bottom text-white">Join Our social links</h5>
+                  <div class="d-flex">
+                      <a href="#" class="d-flex align-items-center text-decoration-none card footer_link_color social_icon"><i class="fab fa-facebook mt-1"></i></a>
+                      <a href="#" class="d-flex align-items-center text-decoration-none card footer_link_color ms-2 social_icon"><i class="fab fa-linkedin mt-1"></i></a>
+                  </div>
+              </div>
+  
+  
+              <div class="col-6 col-md-2 mb-3">
+                  <h5 class="footer_link_color mt-3">Categories</h5>
+                  <ul class="nav flex-column mt-4">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Makeup</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Skin Care</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Bath and Body</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Hair Care</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Personal Care</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Sexual Wellness</a></li>
+                  </ul>
+              </div>
+  
+              <div class="col-6 col-md-2 mb-3">
+                  <h5 class="footer_link_color mt-3">Quick Links</h5>
+                  <ul class="nav flex-column mt-4">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Offers</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Seller Picks</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Campaigns</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Hair Care</a></li>
+                  </ul>
+              </div>
+  
+              <div class="col-6 col-md-2 mb-3">
+                  <h5 class="footer_link_color mt-3">Support</h5>
+                  <ul class="nav flex-column mt-4">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Return Policy</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Terms of Use</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy Policy</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Shipping & Delivery</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact Us</a></li>
+                  </ul>
+              </div>
+  
+          </div>
+  
+          <div class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top text-white">
+              <p>Copyright @ Anghorag. All Right Reserved.</p>
+          </div>
+      </footer>
+  </div>
+  <!-- Footer -->
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
